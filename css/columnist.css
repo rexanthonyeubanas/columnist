@@ -1,0 +1,107 @@
+.bg-primary, .btn-primary {
+  background-color: #ff9900 !important;
+}
+
+.bg-secondary, .btn-secondary {
+  background-color: #2d2928 !important;
+}
+
+.bg-dark, .btn-dark {
+  background-color: #232323 !important;
+}
+
+.text-light {
+  color: #919191 !important;
+}
+
+.container {
+  max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Georgia', Times New Roman, Times, serif;
+  color: #666666;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  color: #666666;
+  font-size: 16px;
+  line-height: normal;
+}
+
+a {
+  color: #ff9900;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav#secondNav .navbar-nav .nav-link {
+  line-height: 0;
+}
+
+nav#secondNav .form-inline .form-control {
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  width: 240px;
+}
+
+nav#secondNav form.form-inline button.btn {
+  margin-left: -40px;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+nav#secondNav i.fa.fa-search {
+  margin-top: -2px;
+  display: block;
+  margin-left: -3px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #ff9900;
+}
+
+nav#mainNav {
+  border-left: 1px;
+  border-style: double;
+  border-right: 0;
+  border-color: #e1e1e1;
+}
+
+.navbar-nav .nav-link, .dropdown-item {
+  font-size: 12px;
+}
+
+li.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+header.masthead, section {
+  padding: 30px 0;
+}
+
+.border-top {
+  border-top: 1px solid #e1e1e1;
+}
+
+footer#footer a {
+  font-size: 12px;
+}
+
+.team-member {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
