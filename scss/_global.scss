@@ -1,0 +1,41 @@
+// background 
+.bg-primary, .btn-primary {
+	background-color:$primary !important;
+	}
+.bg-secondary, .btn-secondary {
+	background-color:$secondary !important;
+}
+.bg-dark, .btn-dark {
+	background-color:$dark !important;
+}
+
+// text
+.text-light {
+	color: $light !important;
+}
+.container {
+	max-width:$container;
+}
+
+// typography
+
+h1,h2,h3,h4,h5,h6, p, a, li {
+	@include body-font;	
+}
+h1 {
+	font-size:56px;
+}
+h5 {
+	font-size:18px;
+}
+p {
+	color: $text; 
+	font-size:16px;
+	line-height: normal;
+}
+a {
+color: $primary;	
+}
+img {
+    max-width: 100%;
+}

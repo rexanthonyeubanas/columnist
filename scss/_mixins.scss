@@ -1,0 +1,26 @@
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Font Mixins
+@mixin serif-font {
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin script-font {
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+@mixin body-font {
+  font-family: 'Georgia', Times New Roman, Times, serif;
+  color: $gray-800;
+}
+
+
+
+@mixin border-top {
+    border-top: 1px solid #e1e1e1;
+}
